@@ -5,15 +5,15 @@ const Footer = () => {
     return (
         <div>
             
-<div class="container my-5">
+<div className="container my-5">
 
-  <footer class="text-white text-center text-lg-start bg-dark" style={{ borderRadius:"15px"}}>
+  <footer className="text-white text-center text-lg-start bg-dark" style={{ borderRadius:"15px"}}>
     
-    <div class="container p-4">
+    <div className="container p-4">
       
-      <div class="row mt-4">
+      <div className="row mt-4">
         
-        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+        <div className="col-lg-4 col-md-12 mb-4 mb-md-0">
           {/* <h5 class="text-uppercase mb-4">About company</h5>
 
           <p>
@@ -36,35 +36,35 @@ const Footer = () => {
         
      </div>
        
-        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4 pb-1">Enter your email address</h5>
+        <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 className="text-uppercase mb-4 pb-1">Enter your email address</h5>
 
-          <div class="form-outline form-white mb-4">
-            <input type="text" id="formControlLg" class="form-control form-control-lg"/>
-            <label class="form-label" for="formControlLg" style={{marginLeft: "0px"}}>For new offer</label>
-          <div class="form-notch"><div class="form-notch-leading" style={{width: "9px"}}></div><div class="form-notch-middle" style={{width: "48.8px"}}></div><div class="form-notch-trailing"></div></div></div>
+          <div className="form-outline form-white mb-4">
+            <input type="text" id="formControlLg" className="form-control form-control-lg"/>
+            <label className="form-label" for="formControlLg" style={{marginLeft: "0px"}}>For new offer</label>
+          <div className="form-notch"><div class="form-notch-leading" style={{width: "9px"}}></div><div class="form-notch-middle" style={{width: "48.8px"}}></div><div className="form-notch-trailing"></div></div></div>
 
-          <ul class="fa-ul" style={{marginLeft: "1.65em"}}>
-            <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Kashimpur , 1346 , Gazipur</span>
+          <ul className="fa-ul" style={{marginLeft: "1.65em"}}>
+            <li className="mb-3">
+              <span className="fa-li"><i class="fas fa-home"></i></span><span className="ms-2">Kashimpur , 1346 , Gazipur</span>
             </li>
-            <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">dulalmiah11@gmail.com</span>
+            <li className="mb-3">
+              <span className="fa-li"><i className="fas fa-envelope"></i></span><span className="ms-2">dulalmiah11@gmail.com</span>
             </li>
-            <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">01305675840</span>
+            <li className="mb-3">
+              <span className="fa-li"><i class="fas fa-phone"></i></span><span className="ms-2">01305675840</span>
             </li>
-            <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">0196738283</span>
+            <li className="mb-3">
+              <span className="fa-li"><i class="fas fa-print"></i></span><span className="ms-2">0196738283</span>
             </li>
           </ul>
         </div>
      
-        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4">Opening hours</h5>
+        <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 className="text-uppercase mb-4">Opening hours</h5>
 
-          <table class="table text-center text-white">
-            <tbody class="font-weight-normal">
+          <table className="table text-center text-white">
+            <tbody className="font-weight-normal">
               <tr>
                 <td>Mon - Thu:</td>
                 <td>8am - 11pm</td>
@@ -86,9 +86,9 @@ const Footer = () => {
     </div>
  
 
-    <div class="text-center p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
+    <div className="text-center p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
       © 2023 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">pase.com</a>
+      <a className="text-white" href="https://mdbootstrap.com/">pase.com</a>
     </div>
    
   </footer>

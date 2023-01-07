@@ -15,7 +15,7 @@ const Menubar = () => {
                         <Link to="/home">Home</Link>
                         <Link to="/categories">Categories</Link>
                         <Link to="/product">Product</Link>
-                        <Link to="/blog">Blog</Link>
+                        <Link to="/orders">Orders</Link>
                         <Link to="/login">Login</Link>
                         <Link to="/profile">Profile</Link>
                     </Nav>
