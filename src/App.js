@@ -4,6 +4,7 @@ import Menubar from './components/MenuBar/Menubar';
 import Products from './components/Products/Products';
 import {Routes , Route} from 'react-router-dom';
 import NotFound from './components/NotFound/NotFound';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
       <Route path="*" element={<NotFound></NotFound>}></Route>
     
      </Routes>
+
+     <Footer/>
     </div>
   );
 }

@@ -1,0 +1,103 @@
+import React from 'react';
+import './Footer.css';
+
+const Footer = () => {
+    return (
+        <div>
+            
+<div class="container my-5">
+
+  <footer class="text-white text-center text-lg-start bg-dark" style={{ borderRadius:"15px"}}>
+    
+    <div class="container p-4">
+      
+      <div class="row mt-4">
+        
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+          {/* <h5 class="text-uppercase mb-4">About company</h5>
+
+          <p>
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+            voluptatum deleniti atque corrupti.
+          </p>
+
+          <p>
+            Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+            molestias.
+          </p> */}
+
+ <h2>About Us!</h2>
+    <h3 style={{textAlign: "left"}}>Welcome To <span id="W_Name1">pase.com</span></h3>
+    <p style={{textAlign:"justify"}}><span id="W_Name2">pase.com</span> is a Professional <span id="W_Type1">eCommerce</span> Platform. Here we will provide you only interesting content, which you will like very much. We're dedicated to providing you the best of <span id="W_Type2">eCommerce</span>, with a focus on dependability and <span id="W_Spec">rent and sell</span>. We're working to turn our passion for <span id="W_Type3">eCommerce</span> into a booming <a href="pase.com" rel="do-follow" style={{color: "inherit", textDecoration: "none"}}>online website</a>. We hope you enjoy our <span id="W_Type4">eCommerce</span> as much as we enjoy offering them to you.</p>
+<p>I will keep posting more important posts on my Website for all of you. Please give your support and love.</p>
+<p style={{fontWeight: "bold", textAlign: "center"}}>Thanks For Visiting Our Site<br/>
+<span style={{color: "tomato", fontSize: "16px", fontWeight: "bold", textAlign: "center"}}>Have a nice day!</span></p>
+
+        
+     </div>
+       
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4 pb-1">Enter your email address</h5>
+
+          <div class="form-outline form-white mb-4">
+            <input type="text" id="formControlLg" class="form-control form-control-lg"/>
+            <label class="form-label" for="formControlLg" style={{marginLeft: "0px"}}>For new offer</label>
+          <div class="form-notch"><div class="form-notch-leading" style={{width: "9px"}}></div><div class="form-notch-middle" style={{width: "48.8px"}}></div><div class="form-notch-trailing"></div></div></div>
+
+          <ul class="fa-ul" style={{marginLeft: "1.65em"}}>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Kashimpur , 1346 , Gazipur</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">dulalmiah11@gmail.com</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">01305675840</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">0196738283</span>
+            </li>
+          </ul>
+        </div>
+     
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+          <table class="table text-center text-white">
+            <tbody class="font-weight-normal">
+              <tr>
+                <td>Mon - Thu:</td>
+                <td>8am - 11pm</td>
+              </tr>
+              <tr>
+                <td>Fri - Sat:</td>
+                <td>8am - 5pm</td>
+              </tr>
+              <tr>
+                <td>Sunday:</td>
+                <td>9am - 12pm</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+     
+      </div>
+    
+    </div>
+ 
+
+    <div class="text-center p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
+      © 2023 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">pase.com</a>
+    </div>
+   
+  </footer>
+  
+</div>
+</div>
+
+       
+    );
+};
+
+export default Footer;
