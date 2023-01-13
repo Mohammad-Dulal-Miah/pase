@@ -7,10 +7,10 @@ import './MenuBar.css';
 
 const Menubar = () => {
     return (
-        <div  className='navbar-container container'>
-             <h2><span style={{color: "tomato"}}>Pase</span></h2>
-             <Navbar  sticky="top">
-               <Container>
+        <div className='navbar-container container position'>
+            <h2><span style={{ color: "tomato" }}>Pase</span></h2>
+            <Navbar >
+                <Container>
                     <Nav className="me-auto">
                         <Link to="/home">Home</Link>
                         <Link to="/categories">Categories</Link>
@@ -20,7 +20,7 @@ const Menubar = () => {
                         <Link to="/profile">Profile</Link>
                     </Nav>
                 </Container>
-             </Navbar>
+            </Navbar>
         </div>
     );
 };

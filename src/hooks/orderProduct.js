@@ -1,8 +1,10 @@
+import { useEffect, useState } from "react";
 import GetProducts from "./getProducts"
 import { findObj } from "./utilities";
 
 const OrderProduct = ()=>{
 
+   const [orders , setOrders] = useState([]);
 
     const products = GetProducts();
     const data = findObj();
@@ -14,14 +16,19 @@ const OrderProduct = ()=>{
 
         if(select){
             select.quantity = data[id];
-            temp.push(select)
+            temp.push(select);
         }
 
        
     }
 
     
-    return temp;
+  
+
+
+   
+
+   return temp;
 }
 
 export default OrderProduct;

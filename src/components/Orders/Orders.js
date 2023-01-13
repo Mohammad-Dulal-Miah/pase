@@ -1,18 +1,32 @@
 import React from 'react';
 import OrderProduct from '../../hooks/orderProduct';
+import { deleteProductLocal } from '../../hooks/utilities';
 import OrdersInfo from '../OrdersInfo/OrdersInfo';
 import './Orders.css';
 
 const Orders = () => {
 
-    const orders = OrderProduct();
-    console.log(orders)
+    
+    let orders =  OrderProduct();
+   
+   console.log(orders)
+   
+
+    
+    const deleteProduct = (id) =>{
+       
+        deleteProductLocal(id);
+       
+
+    }
+
+  
     return (
         <div className="container">
 
             <div className='text-center order-container'>
             {
-                orders.map(order => <OrdersInfo product={order} key={order.id}></OrdersInfo>)
+                orders.map(product => <OrdersInfo product={product} deleteProduct={deleteProduct} key={product.id}></OrdersInfo>)
             }
             </div>
 

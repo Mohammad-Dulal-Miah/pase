@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import GetProducts from '../../hooks/getProducts';
 import { addToLocal } from '../../hooks/utilities';
 import Product from '../Product/Product';
 import './Information.css';
@@ -9,7 +10,7 @@ const Information = () => {
     const [singleProduct , setSingleProduct] = useState({});
     const {productId} = useParams();
 
-    
+  
 
     useEffect(()=>{
         fetch(`http://localhost:4000/singleProduct/${productId}`)
@@ -17,11 +18,14 @@ const Information = () => {
         .then(data => setSingleProduct(data[0]))
     },[productId]);
 
+  
+
 
     const addToProduct = (productId) =>{
 
         addToLocal(productId);
-        console.log(productId);
+     
+    
     }
 
     return (

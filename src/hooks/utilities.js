@@ -17,6 +17,16 @@ const addToLocal = (id)=>{
     localStorage.setItem("shopping" , JSON.stringify(data))
 }
 
+const deleteProductLocal = (id) =>{
+
+    const data = findObj();
+
+    if(id in data){
+        delete data[id];
+    }
+    localStorage.setItem("shopping" , JSON.stringify(data));
+}
+
 
 const findObj = () =>{
 
@@ -35,4 +45,6 @@ export {
     addToLocal
     ,
     findObj
+    ,
+    deleteProductLocal
 }

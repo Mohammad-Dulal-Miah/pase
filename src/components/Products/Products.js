@@ -9,6 +9,7 @@ import './Products.css';
 const Products = () => {
 
     const products = GetProducts();
+    
     return (
         <div className='container text-center mt-5 mb-5'>
             <h2><span  style={{borderBottom:"2px solid green"}}>Our Products</span></h2>
